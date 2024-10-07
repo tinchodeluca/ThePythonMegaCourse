@@ -8,3 +8,8 @@ def foo(temp):
     if temp <= 7:
         return 'Cold'
     return 'Warm'
+
+def foo(text):
+    if 8 <= len(text):
+        return (True)
+    return(False)
