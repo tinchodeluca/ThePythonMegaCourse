@@ -10,3 +10,9 @@ def file_process(char, path):
 
 with open('file.txt',"w") as file:
     file.write('snail')
+
+with open('bear.txt', 'r') as file:
+    bear_chars = file.read()
+
+with open('first.txt', "w") as file:
+    file.write(bear_chars[:90])
